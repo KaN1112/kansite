@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .work-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .work-list {
+    display: block;
+  }
+}
