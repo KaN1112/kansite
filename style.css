@@ -20,4 +20,10 @@ body {
   .work-list {
     display: block;
   }
+
+}
+/* スマホで文字がはみ出ないようにする */
+body, p, dd {
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
